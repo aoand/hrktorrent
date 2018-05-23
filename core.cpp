@@ -262,7 +262,7 @@ CCore::Run()
 			return EXIT_FAILURE;
 		}
 
-		parms.save_path = p.c_str();
+		parms.save_path = p.string().c_str();
 		parms.ti = info;
 		parms.paused = false;
 
