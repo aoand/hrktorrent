@@ -12,6 +12,10 @@ a) boost
 b) asio header files
 c) libtorrent (the one by rasterbar: http://www.rasterbar.com/products/libtorrent/index.html)
 
+on Debian and systems derived from Debian, like Ubuntu, the required packages can be installed by running
+  $ sudo apt-get install build-essential libtorrent-rasterbar-dev libboost-filesystem-dev
+
+
 To use a config file, put it in your $HOME/.hrktorrent dir and name it "hrktorrent.rc", there is an example included.
 NOTE: Commandline switches override configuration file settings.
 
